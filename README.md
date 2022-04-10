@@ -1,12 +1,13 @@
 # CPUID
 Small code to get all information of your CPU
 
-usage:
-1.gcc CPUID.c -o CPUID
-2../CPUID
+## usage:
+1. gcc CPUID.c -o CPUID  
+2. ./CPUID
 
-Sample:(I use my own MacBook Pro 13 2018, with Intel Core i5-8259U)
-
+## Sample:
+### (I use my own MacBook Pro 13 2018, with Intel Core i5-8259U)
+```
 CPU Vendor:  GenuineIntel
 CPU Name:  Intel(R) Core(TM) i5-8259U CPU @ 2.30GHz
 CPU Basic Information: Family:6  Model:E  Stepping ID:A
@@ -74,4 +75,4 @@ AVX512_IFMA: 0  RDPID: 0        ACLFLUSHOPT: 1  CLWB: 0
 PTrace: 1       AVX512PF: 0     AVX512ER: 0     AVX512CD: 0
 SHA: 0          AVX512BW: 0     AVX512VL: 0     
 
-
+```
